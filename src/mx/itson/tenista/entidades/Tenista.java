@@ -2,7 +2,7 @@ package mx.itson.tenista.entidades;
 
 /**
  *
- * @author Jesus Rosales y Kevin Murgía
+ * @author Jesus Rosales y Kevin Murguía
  */
 public class Tenista {
     public String getNombre() {
