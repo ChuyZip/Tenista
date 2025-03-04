@@ -4,44 +4,49 @@ package mx.itson.tenista.entidades;
  * @author Jesus Rosales y Kevin Murguía
  */
 public class Tenista {
-    /**
-     * @return el nombre
-     */
+/**
+ * 
+ * @return Nombre
+ */
     public String getNombre() {
         return nombre;
     }
     
-    /**
-     * @param nombre the nombre to set
-     */
+   /**
+    * 
+    * @param nombre 
+    */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
     
     /**
-     * @return la velocidad
+     * @return Velocidad
      */
     public Float getVelocidad() {
         return velocidad;
     }
     
     /**
-     * @param velocidad the velocidad to set
+     * 
+     * @param velocidad 
      */
     public void setVelocidad(Float velocidad) {
         this.velocidad = velocidad;
     }
     
     /**
-     * @return the marcaRopa
+     * 
+     * @return MarcaRopa
      */
     public String getMarcaRopa() {
         return marcaRopa;
     }
     
-    /**
-     * @param marcaRopa the marcaRopa to set
-     */
+   /**
+    * 
+    * @param marcaRopa 
+    */
     public void setMarcaRopa(String marcaRopa) {
         this.marcaRopa = marcaRopa;
     }
