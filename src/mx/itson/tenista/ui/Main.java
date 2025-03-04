@@ -29,7 +29,7 @@ public class Main {
         nadal.setVelocidad((float)velocidad);
         nadal.setMarcaRopa("Nike");
         
-        // Calculamos la presión del golpe sobre la pelota y se modifica el atributo presion
+        // Invocamos al método contenido en la clase tenista
         float presionGolpe = nadal.calcularPresionGolpe((float)fuerzaGolpe, (float)areaPelota);
        
         // Mostramos los resultados
