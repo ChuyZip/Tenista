@@ -29,7 +29,7 @@ public class Main {
         nadal.setVelocidad((float)velocidad);
         nadal.setMarcaRopa("Nike");
         
-        // Calculamos la presión del golpe sobre la pelota
+        // Calculamos la presión del golpe sobre la pelota y se modifica el atributo presion
         float presionGolpe = nadal.calcularPresionGolpe((float)fuerzaGolpe, (float)areaPelota);
        
         // Mostramos los resultados
@@ -37,5 +37,8 @@ public class Main {
                 + " usando ropa " + nadal.getMarcaRopa() 
                 + " golpea con una presión de " + presionGolpe + " pascales"
                 + " y se mueve a una velocidad de " + nadal.getVelocidad() + " km/h");
+        
+        // Verificamos que el atributo presion se haya modificado
+        System.out.println("El valor del atributo presion es: " + nadal.getPresion() + " pascales");
     }
 }
