@@ -13,14 +13,6 @@ public class Tenista {
         this.nombre = nombre;
     }
 
-    public Float getRanking() {
-        return ranking;
-    }
-
-    public void setRanking(Float ranking) {
-        this.ranking = ranking;
-    }
-
     public Float getExperiencia() {
         return experiencia;
     }
@@ -53,17 +45,12 @@ public class Tenista {
         this.marcaRopa = marcaRopa;
     }
     private String nombre;
-    private Float ranking;
     private Float experiencia;
     private Float velocidad;
     private Float fuerza;
     private String marcaRopa;
     
-    public float calcularRendimiento(Float ranking, Float experiencia) {
-        float rendimiento = ranking * experiencia;
-        return rendimiento;
-    }
-    
+
     public float calcularFuerzaGolpe(Float fuerza, Float experiencia) {
         float fuerzaGolpe = fuerza * (experiencia/2);
         return fuerzaGolpe;
