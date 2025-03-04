@@ -24,7 +24,6 @@ public class Main {
         
         //Asignamos los valores a los atributos de la clase Tenista
         nadal.setNombre("Rafael Nadal");
-        nadal.setRanking(950.0f);
         nadal.setExperiencia(20.0f);
         nadal.setFuerza((float)fuerza);
         nadal.setVelocidad((float)velocidad);
@@ -35,9 +34,8 @@ public class Main {
         float velocidadCarrera = nadal.calcularVelocidadCarrera(nadal.getVelocidad(), nadal.getExperiencia());
        
         //Mostramos los resultados
-        System.out.println("El tenista " + nadal.getNombre() 
-                + " con ranking " + nadal.getRanking() 
-                + " y usando ropa " + nadal.getMarcaRopa() 
+        System.out.println("El tenista " + nadal.getNombre()   
+                + " usando ropa " + nadal.getMarcaRopa() 
                 + " golpea con una fuerza de " + fuerzaGolpe + " newtons"
                 + " y corre a una velocidad de " + velocidadCarrera + " km/h");
     }
