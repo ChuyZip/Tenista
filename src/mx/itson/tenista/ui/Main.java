@@ -34,7 +34,7 @@ public class Main {
        
         // Mostramos los resultados
         System.out.println("El tenista " + nadal.getNombre()   
-                + " usando ropa " + nadal.getMarcaRopa() 
+                + " patrocinado por " + nadal.getMarcaRopa() 
                 + " golpea con una presión de " + presionGolpe + " pascales"
                 + " y se mueve a una velocidad de " + nadal.getVelocidad() + " km/h");
         
