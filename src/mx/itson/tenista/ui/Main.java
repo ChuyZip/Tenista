@@ -38,7 +38,6 @@ public class Main {
                 + " golpea con una presión de " + presionGolpe + " pascales"
                 + " y se mueve a una velocidad de " + nadal.getVelocidad() + " km/h");
         
-        // Verificamos que el atributo presion se haya modificado
         System.out.println("El valor del atributo presion es: " + nadal.getPresion() + " pascales");
     }
 }
